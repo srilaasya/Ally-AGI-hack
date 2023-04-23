@@ -8,6 +8,9 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
+
+  /* Increase default font-size for better readability for visually impaired users */
+  font-size: 18px;
 }
 
 main {
@@ -15,12 +18,17 @@ main {
   margin: 40px auto;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  /* Increase contrast for better visibility */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
   text-align: center;
   margin-bottom: 10px;
+
+  /* Increase heading font-size for better readability */
+  font-size: 28px;
 }
 
 .description {
@@ -32,6 +40,9 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* Add ARIA role attribute for better screen reader support */
+  role: form;
 }
 
 input {
@@ -41,6 +52,9 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+
+  /* Add ARIA label attribute for better screen reader support */
+  aria-label: Enter your input here;
 }
 
 button {
@@ -52,8 +66,12 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 18px;
+
+  /* Add ARIA role attribute for better screen reader support */
+  role: button;
 }
 
 button:hover {
-  background-color: #0056b3;
+  /* Increase contrast for better visibility on hover */
+  background-color: #004a99;
 }
