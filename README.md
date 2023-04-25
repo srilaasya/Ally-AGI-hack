@@ -1,2 +1,2 @@
 # Ally-AGI-hack
-Auto-generates code to make any website accessible
+Running LLMs locally to auto-generate code that converts any website to be accessible
